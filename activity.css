@@ -28,9 +28,9 @@ body{
 .vertical {
     border-left: 6px dotted #ffa64f;
     position:absolute;
-    bottom: -120vh;
+    bottom: -140vh;
     left: 8%;
-    height: 200%;
+    height: 220%;
 }
 .horizontal{
     border:#ffa64f;
@@ -47,7 +47,7 @@ body{
     border-top: 6px dotted #ffa64f;
     position:absolute;
     left: 10%;
-    bottom: 5%;
+    bottom: 4%;
     width: 30%;
     height: 6px;
 }
@@ -60,6 +60,15 @@ body{
     width: 30%;
     height: 6px;
 }
+.horizontal4{
+    border:#ffa64f;
+    border-top: 6px dotted #ffa64f;
+    position:absolute;
+    left: 10%;
+    bottom: -100%;
+    width: 30%;
+    height: 6px;
+}
 .image1{
     position: absolute; left: 110%; top:-2500%;
 }
@@ -68,4 +77,12 @@ body{
 }
 .image3{
     position: absolute; left: 110%; bottom: -2000%;
+}
+
+.image4{
+    position: absolute; left: 110%; bottom: -4500%;
+}
+
+table{
+    width: 100%;
 }
